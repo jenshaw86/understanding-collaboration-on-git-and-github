@@ -38,3 +38,14 @@ Even though my project experience suffered, it was an arguably necessary experie
 So, after a lot of googling, I've concluded that this is a workflow I can understand and work with. I'm excited to try this approach during my next project and take in and appreciate all the moments of peace and no-stress.
 
 If you're not familiar or rusty with Git basics, you can take a look at GitHub's own guide. It's actually pretty clear.
+
+
+### Setting Your Team Up for Collaboration
+So let's assume that we're working a team consisting of multiple people, and we're all working on a brand new project. 
+
+#####Project Setup
+First, we need to appoint just one person, and let's name her Abby, and ask Abby to create a new repository for our project. Or in the case that we're starting from a template of another repository, she can fork the repository. Whether a brand new repository or a fork of one, Abby has created a new master branch for all of us to work with! Good job, Abby!
+
+
+
+
