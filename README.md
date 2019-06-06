@@ -66,13 +66,23 @@ Each of us can create our own branch using the terminal. Type 'git checkout -b '
 ##### I'm Done with my feature! Now What?
 Once we've finished working on our feature, it's time to push it up to our remote repository on GitHub. In your terminal, type 'git push origin ' and the name of the branch you've been working on.
 
-Then hop over to your remote repository on Github, and click on the button that says New pull request. 
+Then hop over to your remote repository on Github, and click on the green button that says Compare and Pull Request. 
 
-On the new pull request page, you want to first compare 'base: master' to your changes on your feature branch 'compare: your-feature-branch-name' of the same repository. 
+On the pull request page, you want to first compare 'base: master' to your changes on your feature branch 'compare: your-feature-branch-name' of the same repository. 
 
 If you get that green light that you're able to merge, you're good to go! Create your pull request by clicking on the green button on the bottom right corner of the form.
 
 ##### Time to Merge! 
 There are many ways to go about doing this. By default, any contributor can approve a pull request and merge changes into the master branch. But that could be problematic if they're not carefully reviewing the code. 
 
-I like a more democratic approach. We can also either choose one person to review and approve all the pull requests, or we can require that at least one other collaborator outside of ourselves look it over and approve it. That's a pretty neat feature and I think more people should use it. 
+I like a more democratic approach. We can also either choose one person to review and approve all the pull requests, or we can require that at least one other collaborator outside of ourselves look it over and approve it.
+
+##### Repeat the Cycle
+Once everyone has successfully pushed and merged their changes, we start all over again. On your terminal type 'git checkout master' to head back to your master branch so you can pull all the updated changes back into your local repository by typing 'git pull origin master'. 
+
+From here on out, the steps are the same, 
+1. Create a new branch to work on. Work only on your own feature on your own branch and commit often. 
+3. Push your completed work up your branch
+4. On GitHub, Compare and Pull Request
+5. Ask someone to review your code and merge it to the master branch.
+6. Hop back 
